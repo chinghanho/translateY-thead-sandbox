@@ -1,0 +1,84 @@
+html,
+body {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* .site-header .inner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.dummy {
+  height: 80px;
+  width: 100%;
+  position: relative;
+} */
+
+.table-dummy {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+table {
+  width: 100%;
+}
+
+.container {
+  /* max-width: 980px; */
+  /* margin: 0 auto; */
+}
+
+.comparision {
+  border-collapse: separate;
+  background-color: #fff;
+}
+
+.comparision thead td {
+  background-color: #fff;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comparision td {
+  width: 220px;
+}
+
+.comparision td:first-child {
+  width: 400px;
+}
+
+.comparision thead {
+}
+
+.comparision thead tr:first-child td {
+  border-top: 1px solid #ddd;
+}
+
+.comparision thead tr:last-child td {
+  border-bottom: 1px solid #ddd;
+}
+
+.comparision thead td,
+.comparision tbody td {
+  height: 40px;
+}
